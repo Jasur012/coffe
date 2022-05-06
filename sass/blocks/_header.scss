@@ -1,0 +1,34 @@
+.header {
+    padding: 40px 0;
+    background-color: #F2D3B0;   
+    // background-image: url(../../imeges/header-herobg@1x.png);
+    // background-repeat: no-repeat;
+    // background-size: 100%;
+}
+.site-header-inner {
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.site__logotip {
+    display: block;
+}
+.navbar {
+    margin-left: auto;
+}
+.navbar__lists {
+    display: flex;
+    list-style-type: none;
+}
+.navbar__item + .navbar__item {
+    margin-left: 40px;
+}
+.navbar__link {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #333333;
+}
